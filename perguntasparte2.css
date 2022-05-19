@@ -6,5 +6,11 @@ h1{
     font-weight: 500;
 }
 body{
-        background-color: grey;
+    background-color: grey;
+}
+
+hr{
+   width: 3px;
+   border-color: red;
+
 }
