@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*Menu*/
+
+hgroup{
+    color: red;
+    text-align: center;
+    font-weight: 500;
+}
+hgroup h1 {
+    margin-top: 0px;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+hgroup h2{
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+ol li{
+    font-size: 20px;
+}
+aside{
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 5500px;
+    float:left;
+}
+
+/*Tópicos*/
+
+hr{ /*linha*/
+   border-width: 2px;
+   border-color: #FF0000;
+}
+
+section{
+    width: 69%;/*largura*/
+    float: left;
+    background-color: #C4C4C4;
+    opacity: 100%;
+    color:#696969;
+    text-align: left;
+}
+
+section p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1,h2,h3{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+}
