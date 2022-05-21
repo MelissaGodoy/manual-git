@@ -68,20 +68,23 @@ section{
 hr{ /*linha*/
    border-width: 2px;
    border-color: #FF0000;
+   margin-left: 30px;
 }
 
-img{
+img,figcaption{
     margin-left: 30px;
 }
 
 section p{
     font-size: 20px;
     font-weight: 500;
+    margin-left: 30px;
 }
 
 h1,h2,h3{
     font-weight: bold;
     margin-bottom: 0px;
+    margin-left: 30px;
 }
 
 h1{
@@ -93,3 +96,4 @@ h2{
 h3{
     font-size: 20px;
 }
+
