@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+body{
+    width: 1400px;
+    margin: 5px auto 5px auto;
+
+}
+
+body section header img{
+    margin-left:30px;
+    margin-top: 175px;
+    margin-bottom: 175px;
+
+}
+article,section,h1{
+    margin: 0px;
+}
+
 /*Menu*/
 
 hgroup{
@@ -22,27 +38,40 @@ ol li{
     font-size: 20px;
 }
 aside{
-    background-color: black;
+    position: relative;
+    background-color: #151313;
     color: white;
-    width: 30%;
-    height: 5500px;
-    float:left;
+    width: 400px;
+    margin-left: 30px;
+    height: 30500px;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 /*Tópicos*/
+
+article{
+    float: left;
+    width: 940px;/*largura*/
+}
+
+section{
+    opacity: 100%;
+    color:#696969;
+    text-align: left;
+}
 
 hr{ /*linha*/
    border-width: 2px;
    border-color: #FF0000;
 }
 
-section{
-    width: 69%;/*largura*/
-    float: left;
-    background-color: #C4C4C4;
-    opacity: 100%;
-    color:#696969;
-    text-align: left;
+img{
+    margin: 0px;
 }
 
 section p{
