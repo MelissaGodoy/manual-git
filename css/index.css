@@ -47,7 +47,7 @@ aside{
     float: left;
 }
 
-a{
+aside nav ol li a{
     text-decoration: none;
     color: white;
 }
@@ -71,7 +71,7 @@ hr{ /*linha*/
 }
 
 img{
-    margin: 0px;
+    margin-left: 30px;
 }
 
 section p{
