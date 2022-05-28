@@ -97,3 +97,14 @@ h3{
     font-size: 20px;
 }
 
+table, tr, td {
+ 
+    border: solid 3px red;
+    padding: 40px;
+    width: 30px;
+    height: 10px;
+    top: 20px;
+    right: 30px;
+    
+}
+
