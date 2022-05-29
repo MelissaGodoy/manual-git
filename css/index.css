@@ -108,3 +108,51 @@ table, tr, td {
     
 }
 
+section header p{
+    color: #FF0000;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#comando1{
+    top: -100px;
+    left: 700px;
+}
+#comando2{
+    top: 300px;
+    left: 300px;
+}
+#comando3{
+    top: 200px;
+    left: 450px;
+}
+
+#comando4{
+    top: 200px;
+    left: 900px;
+}
+#comando5{
+    top: 200px;
+    left: 100px;
+}
+#comando6{
+    top: 400px;
+    left: 900px;
+}
+#comando7{
+    top: 400px;
+    left: 300px;
+}
+#comando8{
+    top: 400px;
+    left: 350px;
+}
+#comando9{
+    top: 300px;
+    left: 700px;
+}
+#comando10{
+    top: 200px;
+    left: 1000px;
+}
