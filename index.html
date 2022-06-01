@@ -337,76 +337,29 @@
             </ul>
             <p>Para o uso do protocolo SSH e GIT, precisam estar instalados na máquina, ao contrário do HTTP/HTTPS.</p>
             <h3 id="protocolo-http">Clonando com o protocolo HTTP/HTTPS. :</h3>
-
-
-
-                    <p>Utilizamos o comando :</p>
-
-
-
-                    <p>it clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git </p>
-
-                    <p>cd SEU-REPOSITORIO.git </p>
-
-
-
-                    <p>O valores após os comando git clone representam os seguintes atributos : </p>
-
-                    <ul>
-
-                        <li>Protocolo : https </li>
-
-                        <li> Url : github.com </li>
-
-                        <li>User : SEU-USUARIO </li>
-
-                    </ul>
-                    <p> do repositório : SEU-USUARIO</p>
-
-
-
-                    <p>Clonando com protocolo SSH </p>
-
-
-
-                    <p>Clonar com o protocolo ssh permite que você clone repositórios de outros servidores sem que você
-                        precise colocar o usuário e token.</p>
-
-                    <p>Comando : </p>
-
-
-
-
-
-                    <p> clone ssh://git@bitbucket.org/ javascript-datastore.git</p>
-
-
-
-                    <p>O valores após os comando git clone representam os seguintes atributos : </p>
-
-                    <p>Protocolo : ssh </p>
-
-                    <p>suario : git </p>
-
-                    <p>Servidor : bitbucket.org </p>
-
-                    <p>Nome do repositório : javascript-data-store.git </p>
-
-
-
-                    <h3 id="protocolo-git">Clonando com protocolo git<h3>
-
-
-
-                            <p>Para se tornar mais rápido a comunicação do que os demais protocolos, o git desenvolveu
-                                seu próprio protocolo.</p>
-
-                            <p>Comando : </p>
-
-
-
-                            <p>git clone git://github.com/meurepoexemplo/meusite.git </p>
-
+            <p>Utilizamos o comando :</p>
+            <p>Git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git </p>
+            <p><code>cd SEU-REPOSITORIO.git</code></p>
+            <p>O valores após os comando git clone representam os seguintes atributos : </p>
+            <ul>
+                <li>Protocolo : https </li>
+                <li> Url : github.com </li>
+                <li>User : SEU-USUARIO </li>
+            </ul>
+            <p> do repositório : SEU-USUARIO</p>
+            <p>Clonando com protocolo SSH </p>
+            <p>Clonar com o protocolo ssh permite que você clone repositórios de outros servidores sem que você precise colocar o usuário e token.</p>
+            <p>Comando : </p>
+            <p><code>git clone ssh://git@bitbucket.org/ javascript-datastore.git</code></p>
+            <p>O valores após os comando git clone representam os seguintes atributos : </p>
+            <p>Protocolo : ssh </p>
+            <p>suario : git </p>
+            <p>Servidor : bitbucket.org </p>
+            <p>Nome do repositório : javascript-data-store.git </p>
+            <h3 id="protocolo-git">Clonando com protocolo git<h3>
+            <p>Para se tornar mais rápido a comunicação do que os demais protocolos, o git desenvolveu seu próprio protocolo.</p>
+            <p>Comando : </p>
+            <p><code>git clone git://github.com/meurepoexemplo/meusite.git</code></p>
         </section>
         <section>
             <h1 id="comandos-git"> 7 - Quais os principais comandos do Git ? </h1>
@@ -469,14 +422,16 @@
                 <figcaption>Foto de <a href="https://leanpub.com/git-flow/read"
                         target="_blank">https://leanpub.com/git-flow/read</a></figcaption>
             </figure>
-            <p>Branches são ramificações que são feitas ao longo do desenvolvimento do projeto, ou seja quando o
+            <p>
+                Branches são ramificações que são feitas ao longo do desenvolvimento do projeto, ou seja quando o
                 desenvolvedor está trabalhando na versão principal do projeto, e precisa corrigir um bug na versão
                 anterior, é preciso mudar somente o branch para uma versão mais antiga que deseja corrigir o bug,
                 criando uma versão subsequente a versão antiga que está sendo corrigido o bug sem alterar para versão
                 principal.
 
                 Desta maneira ele pode corrigir ou atualizar seu projeto sem ter que alterar a sua versão principal,
-                fazendo isso somente depois de finalizado.</p>
+                fazendo isso somente depois de finalizado.
+            </p>
         </section>
         <section>
             <h1 id="arrumar-um-commit"> 10 - Como arrumar uma mensagem errada em um commit ? </h1>
