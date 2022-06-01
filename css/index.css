@@ -81,7 +81,7 @@ section p{
     margin-left: 30px;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
     font-weight: bold;
     margin-bottom: 0px;
     margin-left: 30px;
@@ -97,6 +97,10 @@ h3{
     font-size: 20px;
 }
 
+h4{
+    font-size: 18px;
+}
+
 table, tr, td {
  
     border: solid 3px red;
@@ -106,5 +110,9 @@ table, tr, td {
     top: 20px;
     right: 30px;
     
+}
+
+table{
+    margin-left: 30px;
 }
 
